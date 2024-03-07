@@ -4,7 +4,7 @@ const TeamCard = ({name,role,regNo,info})=>{
     return(
         <div className="w-[100%] h-[15rem] flex flex-col bg-gradient-to-r from-indigo to-pink hover:from-pink hover:to-indigo shadow-md items-center space-y-3 rounded-lg">
             <div className="w-[5rem] h-[5rem] rounded-full bg-gradient-to-r from-indigo to-pink hover:from-pink hover:to-indigo -mt-8 shadow-lg flex items-center justify-center">
-               <img src= "src/assets/images/logo.jpg"></img>
+               <img src= "src/components/ui/logo.jpg"></img>
             </div>
             <div className="flex flex-col items-center text-center text-white space-y-1">
             <h2 className="text-xl font-bold">{name}</h2>
